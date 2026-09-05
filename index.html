@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Zonian Dictionary</title>
+    <meta
+      name="description"
+      content="Zonian Dictionary is a lightweight dictionary site designed for GitHub Pages publishing."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Noto+Sans+JP:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="topbar">
+      <div class="container nav">
+        <div class="brand-wrap">
+          <div class="brand-mark">Z</div>
+          <div>
+            <p class="eyebrow">Language portal</p>
+            <h1>Zonian Dictionary</h1>
+          </div>
+        </div>
+        <nav class="nav-links" aria-label="Main navigation">
+          <a href="#search">検索</a>
+          <a href="#about">概要</a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="container hero-inner">
+          <div class="hero-copy">
+            <p class="eyebrow accent">Zonian dictionary</p>
+            <h2>ゾナ語の意味を、すばやく・わかりやすく調べる</h2>
+            <article id="about" class="info-card">
+              <p class="eyebrow">About the Zonian Language</p>
+              <h3>ゾナ語とは</h3>
+              <p>
+                ゾナ国で話される公用語。表記は五十音を主軸にしつつ、
+                アルファベット、ハングル、記号、絵文字など、Unicodeに含まれる
+                あらゆる文字を使用するという特徴を持つ。国土が常に晴天に恵まれているため、
+                「晴れ」に関する表現や単語が極めて豊富。
+              </p>
+            </article>
+            <p>
+              ゾナ語の単語を、簡単に調べられる辞書サイトです。さまざまな単語を、わかりやすく確認できます。
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section id="search" class="search-section">
+        <div class="container">
+          <form id="search-form" class="search-box">
+            <label for="search-input">検索</label>
+            <div class="search-row">
+              <input
+                id="search-input"
+                type="search"
+                placeholder="例: Zonian, 文化, 🥺, ࿔яあΩd9;אทꙮｓह한বع"
+                aria-label="辞書を検索"
+              />
+              <button type="submit" class="button primary search-button">検索</button>
+            </div>
+          </form>
+        </div>
+      </section>
+
+      <section id="how-to-use" class="info-section">
+        <div class="container">
+          <article class="info-card">
+            <p class="eyebrow">How to use</p>
+            <h3>使い方</h3>
+            <p>
+              謎解きで変な答えになったときや、思わぬ解釈にぶつかったときに、この辞書の単語を根拠に論破してください。<br />
+              <strong class="dictionary-note">&#12300;これ、ゾナ語で&#12302;晴れの一種&#12303;を意味する単語なんですけど……&#12301;</strong><br />
+              <span class="creator-note">制作者はこの辞書に感謝、あるいは恐怖し、別解潰しを頑張ってください。</span>
+            </p>
+          </article>
+        </div>
+      </section>
+
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <p>© 2026 Zonian Dictionary</p>
+        <a href="https://github.com" target="_blank" rel="noreferrer">GitHub</a>
+      </div>
+    </footer>
+
+    <script src="app.js"></script>
+  </body>
+</html>
