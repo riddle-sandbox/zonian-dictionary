@@ -30,8 +30,8 @@ detailExample.textContent = exampleSentence;
 
 if (isEncouragementTerm) {
 	const postLink = document.createElement("a");
-	const publicSiteUrl = "https://riddle-sandbox.github.io/zonian-dictionary/";
-	const postText = `【ARG】『ゾナ語』を解いて、ゾナ語をマスターした！\n#ゾナ語謎\n${publicSiteUrl}`;
+	const publicSiteUrl = "https://note.com/butsuri_physics/n/na72b241f27e1";
+	const postText = `【カスARG】『ゾナ語』を解いて、ゾナ語をマスターした！\n#ゾナ語謎\n${publicSiteUrl}`;
 	postLink.href = `https://twitter.com/intent/tweet?text=${encodeURIComponent(postText)}`;
 	postLink.textContent = "クリアポストをXに投稿する";
 	postLink.className = "button primary post-button";
